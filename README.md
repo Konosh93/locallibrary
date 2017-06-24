@@ -1,0 +1,2 @@
+# locallibrary
+Test Django project
