@@ -126,15 +126,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-import pytz
-tz_jp = pytz.timezone("Asia/Tokyo")
-TIME_ZONE =  tz_jp       #'JST'
 
-USE_I18N = True
+TIME_ZONE =  'UTC'       #'JST'
 
-USE_L10N = True
 
-USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
